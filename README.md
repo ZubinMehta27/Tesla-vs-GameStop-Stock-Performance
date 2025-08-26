@@ -1,30 +1,139 @@
-# 📊 Tesla vs GameStop Stock Performance
+# 📈 Tesla vs GameStop Stock Performance Analysis
 
-This project analyzes and visualizes the stock performance of **Tesla (TSLA)** and **GameStop (GME)**.  
-It retrieves historical stock prices using **Yahoo Finance**, scrapes revenue data with **BeautifulSoup**, and visualizes the trends interactively using **Plotly**.
+## 📖 Overview
 
----
+This project analyzes and compares the stock performance of Tesla (TSLA) and GameStop (GME) by extracting historical stock data and revenue information. The analysis includes data visualization to understand the relationship between stock prices and revenue over time.
 
-## 🚀 Features
-- Extracts historical stock price data with **yfinance**  
-- Scrapes revenue data from the web with **BeautifulSoup**  
-- Cleans and structures datasets using **pandas**  
-- Builds interactive graphs with **Plotly**  
-- Compares **share price trends** and **revenue growth** for Tesla and GameStop  
+## 🎯 Objectives
 
----
+- Extract Tesla and GameStop stock data using Yahoo Finance API (yfinance)
+- Scrape revenue data from financial websites using BeautifulSoup
+- Clean and process financial data
+- Create interactive visualizations comparing stock performance and revenue
+- Build a dashboard to display key insights
 
-## 📂 Project Structure
-- [Tesla vs GameStop Stock Performance.ipynb](Tesla%20vs%20GameStop%20Stock%20Performance.ipynb) → Jupyter Notebook with full workflow  
-- Core functions:  
-  - Extract stock data  
-  - Scrape revenue data  
-  - Create combined stock + revenue plots  
+## 📊 Data Sources
 
----
+- **Stock Data**: Yahoo Finance API via `yfinance` library
+- **Revenue Data**: Web scraping from financial websites using `BeautifulSoup`
 
-## 🛠️ Installation
-Clone the repository and install dependencies:
+## 🛠️ Technologies Used
 
+- **Python 3**
+- **Jupyter Notebook**
+- **Libraries**:
+  - `yfinance` - Stock data extraction
+  - `pandas` - Data manipulation and analysis
+  - `requests` - HTTP requests for web scraping
+  - `BeautifulSoup` - HTML parsing
+  - `plotly` - Interactive visualizations
+  - `nbformat` - Notebook formatting
+
+## 📋 Project Structure
+
+```
+Tesla-vs-GameStop-Stock-Performance/
+├── Tesla vs GameStop Stock Performance.ipynb  # Main analysis notebook
+├── Figures/
+│   ├── Tesla.html                            # Interactive Tesla graph
+│   └── GameStop.html                         # Interactive GameStop graph
+├── README.md                                 # Project documentation
+└── requirements.txt                          # Python dependencies
+```
+
+## 🚀 Installation & Setup
+
+1. Clone the repository:
 ```bash
-pip install yfinance pandas requests beautifulsoup4 plotly nbformat
+git clone https://github.com/zubinmehta27/Tesla-vs-GameStop-Stock-Performance.git
+cd Tesla-vs-GameStop-Stock-Performance
+```
+
+2. Install required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Launch Jupyter Notebook:
+```bash
+jupyter notebook
+```
+
+4. Open `Tesla vs GameStop Stock Performance.ipynb` to explore the analysis
+
+## 📈 Key Features
+
+### Data Extraction
+- Automated stock data retrieval from Yahoo Finance
+- Web scraping for revenue data
+- Data cleaning and preprocessing
+
+### Visualization
+- Interactive stock price charts
+- Revenue trend analysis
+- Comparative performance dashboards
+- Custom graphing functions for consistent visualization
+
+### Analysis
+- Historical price performance comparison
+- Revenue growth patterns
+- Correlation analysis between stock price and revenue
+
+## 📊 Interactive Graphs
+
+**Tesla Stock Price vs Revenue**  
+🔗 [View Interactive Graph](https://zubinmehta27.github.io/Tesla-vs-GameStop-Stock-Performance/Figures/Tesla.html)
+
+**GameStop Stock Price vs Revenue**  
+🔗 [View Interactive Graph](https://zubinmehta27.github.io/Tesla-vs-GameStop-Stock-Performance/Figures/GameStop.html)
+
+## 🧮 Methodology
+
+1. **Data Collection**: 
+   - Stock data via yfinance API
+   - Revenue data via web scraping
+
+2. **Data Processing**:
+   - Date formatting and alignment
+   - Currency conversion and cleaning
+   - Data validation and error handling
+
+3. **Visualization**:
+   - Dual-axis charts for price and revenue
+   - Interactive features with Plotly
+   - Custom styling and annotations
+
+## 📋 Results
+
+The analysis provides insights into:
+- Tesla's exponential growth phase
+- GameStop's volatility during the meme stock phenomenon
+- Correlation between revenue growth and stock performance
+- Market cap comparisons between traditional and disruptive companies
+
+## 🎓 Skills Demonstrated
+
+- Financial data analysis
+- Web scraping and API integration
+- Data visualization
+- Python programming
+- Financial market analysis
+- Interactive dashboard creation
+
+## 🔮 Future Enhancements
+
+- Real-time data updates
+- Additional technical indicators
+- Sentiment analysis integration
+- Portfolio simulation features
+- Mobile-responsive dashboards
+
+## 📧 Contact
+
+Zubin Mehta - [GitHub Profile](https://github.com/zubinmehta27)
+
+Project Link: [https://github.com/zubinmehta27/Tesla-vs-GameStop-Stock-Performance](https://github.com/zubinmehta27/Tesla-vs-GameStop-Stock-Performance)
+
+---
+
+*Note: This project is for educational purposes only and should not be considered financial advice.*
