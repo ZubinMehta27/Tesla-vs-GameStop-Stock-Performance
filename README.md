@@ -15,7 +15,7 @@ It retrieves historical stock prices using **Yahoo Finance**, scrapes revenue da
 ---
 
 ## 📂 Project Structure
-- `Tesla vs GameStop Stock Performance.ipynb` → Jupyter Notebook with full workflow  
+- [Tesla vs GameStop Stock Performance.ipynb](Tesla%20vs%20GameStop%20Stock%20Performance.ipynb) → Jupyter Notebook with full workflow  
 - Core functions:  
   - Extract stock data  
   - Scrape revenue data  
